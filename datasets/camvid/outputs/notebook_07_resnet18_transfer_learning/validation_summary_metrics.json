@@ -1,0 +1,14 @@
+{
+  "threshold": 0.5,
+  "micro_precision": 0.8151260504201681,
+  "micro_recall": 0.860137041515518,
+  "micro_f1": 0.8370268680133359,
+  "macro_precision": 0.49606803465996885,
+  "macro_recall": 0.5327367908672028,
+  "macro_f1": 0.48939972230860734,
+  "weighted_precision": 0.8273020498879504,
+  "weighted_recall": 0.860137041515518,
+  "weighted_f1": 0.8258499809680033,
+  "exact_match_accuracy": 0.005847953216374269,
+  "hamming_loss": 0.1675741076830006
+}
