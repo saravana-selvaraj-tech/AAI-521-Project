@@ -1,0 +1,89 @@
+{
+  "model_name": "ResNet-18",
+  "task": "CamVid multi-label image classification",
+  "pretrained_imagenet": true,
+  "class_columns": [
+    "Animal",
+    "Archway",
+    "Bicyclist",
+    "Bridge",
+    "Building",
+    "Car",
+    "CartLuggagePram",
+    "Child",
+    "Column_Pole",
+    "Fence",
+    "LaneMkgsDriv",
+    "LaneMkgsNonDriv",
+    "Misc_Text",
+    "MotorcycleScooter",
+    "OtherMoving",
+    "ParkingBlock",
+    "Pedestrian",
+    "Road",
+    "RoadShoulder",
+    "Sidewalk",
+    "SignSymbol",
+    "Sky",
+    "SUVPickupTruck",
+    "TrafficCone",
+    "TrafficLight",
+    "Tree",
+    "Truck_Bus",
+    "VegetationMisc",
+    "Wall"
+  ],
+  "excluded_zero_support_classes": [
+    "Train",
+    "Tunnel"
+  ],
+  "image_size": 224,
+  "threshold": 0.5,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "seed": 42,
+  "metadata_file": "/content/drive/MyDrive/AAI-521/project/datasets/camvid/preprocessed/camvid_preprocessed_metadata.csv",
+  "split_counts": {
+    "train": 406,
+    "validation": 171,
+    "test": 124
+  },
+  "best_validation_loss_head": 0.3604517514594117,
+  "best_validation_loss_finetune": 0.3977748049281494,
+  "validation_metrics": {
+    "threshold": 0.5,
+    "micro_precision": 0.8151260504201681,
+    "micro_recall": 0.860137041515518,
+    "micro_f1": 0.8370268680133359,
+    "macro_precision": 0.49606803465996885,
+    "macro_recall": 0.5327367908672028,
+    "macro_f1": 0.48939972230860734,
+    "weighted_precision": 0.8273020498879504,
+    "weighted_recall": 0.860137041515518,
+    "weighted_f1": 0.8258499809680033,
+    "exact_match_accuracy": 0.005847953216374269,
+    "hamming_loss": 0.1675741076830006
+  },
+  "test_metrics": {
+    "threshold": 0.5,
+    "micro_precision": 0.8067680235409515,
+    "micro_recall": 0.8492514197212184,
+    "micro_f1": 0.8274647887323944,
+    "macro_precision": 0.5240179660413015,
+    "macro_recall": 0.5576646872133264,
+    "macro_f1": 0.5153033675632831,
+    "weighted_precision": 0.8364258939240423,
+    "weighted_recall": 0.8492514197212184,
+    "weighted_f1": 0.8134079458347595,
+    "exact_match_accuracy": 0.0,
+    "hamming_loss": 0.19076751946607343
+  }
+}

@@ -1,0 +1,56 @@
+{
+    "seed": 42,
+    "image_size": [
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "active_classes": [
+        "Road",
+        "Sky",
+        "Column_Pole",
+        "LaneMkgsDriv",
+        "Building",
+        "Sidewalk",
+        "Car",
+        "Pedestrian",
+        "Tree",
+        "Misc_Text",
+        "TrafficLight",
+        "Wall",
+        "OtherMoving",
+        "SignSymbol",
+        "Bicyclist",
+        "Fence",
+        "SUVPickupTruck",
+        "VegetationMisc",
+        "CartLuggagePram",
+        "ParkingBlock",
+        "Truck_Bus",
+        "Child",
+        "Archway",
+        "RoadShoulder",
+        "Animal",
+        "TrafficCone",
+        "MotorcycleScooter",
+        "LaneMkgsNonDriv",
+        "Bridge"
+    ],
+    "training_augmentations": {
+        "horizontal_flip_probability": 0.5,
+        "brightness": 0.15,
+        "contrast": 0.15,
+        "saturation": 0.1,
+        "rotation_degrees": 3,
+        "translation": [
+            0.02,
+            0.02
+        ],
+        "scale": [
+            0.98,
+            1.02
+        ],
+        "gaussian_blur_probability": 0.15
+    },
+    "evaluation_augmentation": false
+}
